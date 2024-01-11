@@ -3,27 +3,7 @@ guid: e0a4e28e95ac9b84facadd29ebe534b4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Azri_AZRI_body_material3
-    second: {fileID: 2100000, guid: f762aa6abe4366d49a77ed5d07da6e41, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Azri_AZRI_head_material
-    second: {fileID: 2100000, guid: 680d683d94a714f46bb95209c5fe8b92, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Azri_AZRI_head_material3
-    second: {fileID: 2100000, guid: d942f5b24660eb1479ab8c382110e3e2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Azri_AZRI_sword_mat
-    second: {fileID: 2100000, guid: cb0eefc4da2e8764e8c412e940a8d877, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
