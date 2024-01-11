@@ -106,6 +106,12 @@ public class PlayerController : MonoBehaviour
             _animator.SetTrigger(BLOCK_LOW);
     }
 
+    internal void TryInstantWin()
+    {
+        _animator.SetTrigger(WIN);
+        Debug.Log("JODER");
+    }
+
 
     public void OnHit(Transform hit)
     {

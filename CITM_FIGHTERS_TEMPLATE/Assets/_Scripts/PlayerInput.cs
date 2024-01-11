@@ -55,4 +55,10 @@ public class PlayerInput : MonoBehaviour
         else
             _controller.TryLowBlock();
     }
+
+    private void InstantWin()
+    {
+        _controller.TryInstantWin();
+        Debug.Log("instant");
+    }
 }

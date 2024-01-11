@@ -3,7 +3,52 @@ guid: 2d27ccf018d0a2642b9afd70ceacfa1f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pink_MAT
+    second: {fileID: 2100000, guid: b11eda09292411c43aa8186583febeb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thor_cloth_MAT
+    second: {fileID: 2100000, guid: 384a2b7ea09133245b12a516cee30494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thor_eyes_MAT
+    second: {fileID: 2100000, guid: 7ff057bc901ea954b86c0a532917783c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thor_gauntlets_MAT
+    second: {fileID: 2100000, guid: 2203ebed1347123468a3b61d2fb5beab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thor_hair_MAT
+    second: {fileID: 2100000, guid: 38d2502522da3a64db6c2ec76fdd6693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thor_legs_MAT
+    second: {fileID: 2100000, guid: 7ce85beea04e1aa498f258c95b929679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thor_skin_MAT
+    second: {fileID: 2100000, guid: 1cdc22fcdb8f4ae438b692253a70df31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thor_skinhelperthor
+    second: {fileID: 2100000, guid: c9bfabe5b9dbb254bb8bad28b3eb97f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thor_torso_MAT
+    second: {fileID: 2100000, guid: 15d737a2e437a4f4892c7a3c5a08cd91, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
