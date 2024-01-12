@@ -39,7 +39,14 @@ public class MovementController : MonoBehaviour
     {
         float moveSpeed = _animator.GetFloat("Speed") * Time.deltaTime;
         Vector3 moveVec = new Vector3(moveSpeed, 0, 0);
-        transform.position += moveVec;
+        if(_id == 0)
+        {
+            transform.position += moveVec;
+        }
+        else
+        {
+            transform.position -= moveVec;
+        }
     }
     public void SetOtherPlayer(Transform other)
     {
