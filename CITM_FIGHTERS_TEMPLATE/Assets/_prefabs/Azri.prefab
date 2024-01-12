@@ -64,10 +64,38 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -43108888403770142, guid: e0a4e28e95ac9b84facadd29ebe534b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04c1ebf9557d4cd409b5c9c61bad7f1e, type: 2}
+    - target: {fileID: 166563352842758799, guid: e0a4e28e95ac9b84facadd29ebe534b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0517ebca549d5147b1124fca15f7b53, type: 2}
+    - target: {fileID: 335268153583600867, guid: e0a4e28e95ac9b84facadd29ebe534b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04c1ebf9557d4cd409b5c9c61bad7f1e, type: 2}
     - target: {fileID: 919132149155446097, guid: e0a4e28e95ac9b84facadd29ebe534b4, type: 3}
       propertyPath: m_Name
       value: Azri
       objectReference: {fileID: 0}
+    - target: {fileID: 2215109342202673535, guid: e0a4e28e95ac9b84facadd29ebe534b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04c1ebf9557d4cd409b5c9c61bad7f1e, type: 2}
+    - target: {fileID: 3288172268763523623, guid: e0a4e28e95ac9b84facadd29ebe534b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0517ebca549d5147b1124fca15f7b53, type: 2}
+    - target: {fileID: 5403005502058526972, guid: e0a4e28e95ac9b84facadd29ebe534b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04c1ebf9557d4cd409b5c9c61bad7f1e, type: 2}
+    - target: {fileID: 6161609410356139769, guid: e0a4e28e95ac9b84facadd29ebe534b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a05a77c9afaa57740b0973a84ea0bb9a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
