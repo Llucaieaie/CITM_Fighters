@@ -50,6 +50,9 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        _isAttacking = false;
+        _isBlocking = false;
+        _dead = false;
         _animator = GetComponent<Animator>();
         _id = _playercount++;
     }
@@ -76,34 +79,52 @@ public class PlayerController : MonoBehaviour
     public void TryHighQuickAttack()
     {
         if (CanAttack)
+        {
+            SetAtacking(true, UpDown.Up);
             _animator.SetTrigger(ATTACK_HIGH_QUICK);
+        }
     }
     public void TryHighSlowAttack()
     {
         if (CanAttack)
+        {
+            SetAtacking(true, UpDown.Up);
             _animator.SetTrigger(ATTACK_HIGH_SLOW);
+        }
     }
     public void TryLowQuickAttack()
     {
         if (CanAttack)
+        {
+            SetAtacking(true, UpDown.Down);
             _animator.SetTrigger(ATTACK_LOW_QUICK);
+        }
     }
     public void TryLowSlowAttack()
     {
         if (CanAttack)
+        {
+            SetAtacking(true, UpDown.Down);
             _animator.SetTrigger(ATTACK_LOW_SLOW);
+        }
     }
 
     internal void TryHighBlock()
     {
         if (CanBlock)
+        {
+            SetBlocking(true, UpDown.Up);
             _animator.SetTrigger(BLOCK_HIGH);
+        }
     }
 
     internal void TryLowBlock()
     {
         if (CanBlock)
+        {
+            SetBlocking(true, UpDown.Down);
             _animator.SetTrigger(BLOCK_LOW);
+        }
     }
 
     internal void TryInstantWin()
