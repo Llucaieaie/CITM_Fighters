@@ -109,9 +109,8 @@ public class PlayerController : MonoBehaviour
     internal void TryInstantWin()
     {
         _animator.SetTrigger(WIN);
-        Debug.Log("JODER");
+        StartCoroutine(InstantWinCoroutine());
     }
-
 
     public void OnHit(Transform hit)
     {
@@ -131,14 +130,12 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    private void Die()
+    public void Die()
     {
         _animator.SetTrigger(DIE);
 
       //  GetComponent<AudioSource>().Play();
         StartCoroutine(DieLater());
-
-
     }
 
     IEnumerator DieLater()
@@ -155,6 +152,15 @@ public class PlayerController : MonoBehaviour
     public void Win()
     {
         _animator.SetTrigger(WIN);
+    }
+
+    IEnumerator InstantWinCoroutine()
+    {
+        yield return new WaitForSeconds(5);  // Espera 2 segundos antes de realizar alguna acción adicional.
+        _playercount = 0;
+        PlayerStart.nPLayers = 0;
+        MovementController._playercount = 0;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
 
